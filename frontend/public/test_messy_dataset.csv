@@ -1,0 +1,41 @@
+customer_id,name,age,income,credit_score,city,employment_type,years_employed,account_balance,num_products,has_credit_card,satisfaction_score,region_code,churned
+C001,Alice,34,72000,710,New York,Full-time,5,15420.50,3,yes,8,NORTH,no
+C002,Bob,28,45000,680,Boston,Part-time,2,8200.00,1,yes,6,NORTH,no
+C003,Charlie,45,120000,790,Chicago,Full-time,15,52000.00,4,no,9,MIDWEST,no
+C004,Diana,,58000,640,,Contract,3,,2,yes,5,SOUTH,yes
+C005,Eve,31,67000,,San Francisco,Full-time,4,22100.00,3,yes,,WEST,no
+C006,Frank,52,95000,720,New York,Full-time,20,45000.00,5,yes,7,NORTH,no
+C007,Grace,24,,590,Boston,Part-time,,3100.00,1,no,4,NORTH,yes
+C008,Hank,38,82000,700,Chicago,Full-time,8,31500.00,3,yes,7,MIDWEST,no
+C009,Irene,41,77000,730,Dallas,Full-time,12,28900.00,4,yes,8,SOUTH,no
+C010,Jack,29,51000,,Houston,Contract,2,9800.00,1,no,,SOUTH,yes
+C011,Kate,36,69000,690,New York,Full-time,7,18700.00,2,yes,6,NORTH,no
+C012,Leo,,88000,750,San Francisco,Full-time,10,39200.00,4,yes,9,WEST,no
+C013,Mona,47,105000,770,Chicago,Full-time,18,48100.00,5,yes,8,MIDWEST,no
+C014,Nick,33,,660,Boston,Part-time,3,,1,no,5,NORTH,yes
+C015,Olive,27,43000,620,Dallas,Contract,,5400.00,1,yes,4,SOUTH,yes
+C016,Pete,55,130000,800,New York,Full-time,25,61000.00,5,yes,9,NORTH,no
+C017,Quinn,30,54000,670,Houston,Full-time,3,11200.00,2,yes,6,SOUTH,no
+C018,Rose,,62000,700,San Francisco,Full-time,6,19800.00,3,yes,7,WEST,no
+C019,Sam,42,91000,,Chicago,Full-time,14,37500.00,4,no,,MIDWEST,no
+C020,Tina,26,40000,610,,Part-time,1,4200.00,1,yes,3,SOUTH,yes
+C021,Uma,39,78000,710,New York,Full-time,9,27600.00,3,yes,7,NORTH,no
+C022,Vince,48,99000,740,Boston,Full-time,16,42300.00,4,yes,8,NORTH,no
+C023,Wendy,31,55000,680,Dallas,Contract,4,12100.00,2,yes,5,SOUTH,no
+C024,Xander,35,,650,Houston,Full-time,5,,2,no,5,SOUTH,yes
+C025,Yara,44,87000,720,Chicago,Full-time,11,33800.00,3,yes,8,MIDWEST,no
+C026,Zach,29,48000,640,San Francisco,Part-time,2,7600.00,1,yes,4,WEST,yes
+C027,Alice,34,72000,710,New York,Full-time,5,15420.50,3,yes,8,NORTH,no
+C028,Bob,28,45000,680,Boston,Part-time,2,8200.00,1,yes,6,NORTH,no
+C029,Amy,37,74000,700,New York,Full-time,8,21000.00,3,yes,7,NORTH,no
+C030,Ben,50,115000,780,Chicago,Full-time,22,55000.00,5,yes,9,MIDWEST,no
+C031,Cara,23,38000,600,Houston,Part-time,,2800.00,1,no,3,,yes
+C032,Dan,46,97000,750,Dallas,Full-time,17,41000.00,4,yes,8,SOUTH,no
+C033,Ella,,52000,660,Boston,Contract,3,9500.00,2,yes,5,NORTH,no
+C034,Finn,32,63000,,San Francisco,Full-time,4,16800.00,2,yes,,WEST,no
+C035,Gina,40,83000,720,New York,Full-time,10,30200.00,3,yes,7,NORTH,no
+C036,Hugo,27,,630,Chicago,Part-time,1,,1,no,4,MIDWEST,yes
+C037,Iris,53,125000,790,Dallas,Full-time,24,58000.00,5,yes,9,SOUTH,no
+C038,Jake,34,70000,690,Houston,Full-time,6,18500.00,2,yes,6,SOUTH,no
+C039,Lily,29,49000,650,,Contract,2,7100.00,1,yes,4,,yes
+C040,Mike,43,89000,730,New York,Full-time,13,35000.00,4,yes,8,NORTH,no

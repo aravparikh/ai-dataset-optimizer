@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:8000/api" });
+const API = axios.create({ baseURL: "/api" });
 
 export async function uploadFile(file) {
   const form = new FormData();
@@ -27,5 +27,5 @@ export async function cleanFile(fileId, targetColumn, scaleNumeric) {
 }
 
 export function downloadUrl(fileId) {
-  return `http://localhost:8000/api/download/${fileId}`;
+  return `/api/download/${fileId}`;
 }
