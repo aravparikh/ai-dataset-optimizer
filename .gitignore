@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node
+node_modules/
+frontend/build/
+
+# Uploads
+backend/uploads/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+.claude/
