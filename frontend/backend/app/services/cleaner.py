@@ -2,7 +2,6 @@
 
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
 from typing import List, Dict, Any, Optional, Tuple
 
 
@@ -138,8 +137,9 @@ def clean_dataset(
         if target_column and target_column in num_cols:
             num_cols.remove(target_column)
         if num_cols:
-            scaler = StandardScaler()
-            cleaned[num_cols] = scaler.fit_transform(cleaned[num_cols])
+            means = cleaned[num_cols].mean()
+            stds = cleaned[num_cols].std(ddof=0).replace(0, 1)
+            cleaned[num_cols] = (cleaned[num_cols] - means) / stds
             names = ", ".join(num_cols)
             actions.append(f"Scaled numeric columns with StandardScaler: {names}")
             fixes.append(
