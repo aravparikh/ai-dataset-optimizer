@@ -6,7 +6,7 @@ venv/
 
 # Node
 node_modules/
-frontend/build/
+build/
 
 # Uploads
 backend/uploads/*.csv
