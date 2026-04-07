@@ -9,7 +9,7 @@ node_modules/
 build/
 
 # Uploads
-backend/uploads/*.csv
+frontend/backend/uploads/*.csv
 
 # IDE
 .vscode/
